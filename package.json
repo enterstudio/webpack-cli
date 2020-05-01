@@ -22,7 +22,9 @@
     "lint:staged": "lint-staged",
     "lint": "npm run lint:bin && npm run lint:lib && npm run lint:test",
     "install-commit-validator": "fit-commit-js install",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "babel-core": "^6.21.0",
@@ -44,7 +46,8 @@
     "supports-color": "^3.1.2",
     "webpack": "^2.2.0-rc.0",
     "webpack-addons-ylvis": "0.0.27",
-    "yargs": "^6.5.0"
+    "yargs": "^6.5.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "ajv": "^4.11.3",
@@ -65,5 +68,6 @@
       "git add"
     ]
   },
-  "pre-commit": "lint:staged"
+  "pre-commit": "lint:staged",
+  "snyk": true
 }
