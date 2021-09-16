@@ -34,7 +34,7 @@
     "enhanced-resolve": "^3.0.2",
     "fit-commit-js": "^0.3.1",
     "got": "^6.6.3",
-    "inquirer": "^2.0.0",
+    "inquirer": "^7.0.5",
     "interpret": "^1.0.1",
     "jscodeshift": "^0.3.30",
     "loader-utils": "^0.2.16",
@@ -42,9 +42,9 @@
     "recast": "git://github.com/kalcifer/recast.git#bug/allowbreak",
     "rx": "^4.1.0",
     "supports-color": "^3.1.2",
-    "webpack": "^2.2.0-rc.0",
-    "webpack-addons-ylvis": "0.0.27",
-    "yargs": "^6.5.0"
+    "webpack": "^4.0.0",
+    "webpack-addons-ylvis": "0.0.28",
+    "yargs": "^15.0.1"
   },
   "devDependencies": {
     "ajv": "^4.11.3",
